@@ -1,6 +1,6 @@
 const lists = [];
 
-function display(list) {
+const  display=(list)=> {
   let listContainer = document.querySelector("#list");
   if (listContainer.childNodes.length > 0 && list.length > 0) {
     listContainer.innerHTML = "";

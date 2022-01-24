@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.todo-container {
+  background-color: aliceblue;
+  height: 100vh;
+  text-align: center;
+}
+.todo-container h1 {
+  color: rgb(7, 177, 64);
+  font-size: 22px;
+  padding: 20px 0;
+}
+.todo-container .todo-card {
+  width: 60%;
+  margin: auto;
+  background: bisque;
+  text-align: left;
+  padding: 2rem;
+  border-radius: 14px;
+}
+.todo-container .todo-card .form-input {
+    color: #fff;
+  width: 100%;
+  height: 44px;
+  background: rgb(209, 136, 68);
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.todo-container .todo-card .form-input input {
+  background: transparent;
+  width: 100%;
+  outline: none;
+  height: 100%;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+  padding: 0 12px;
+  
+}
+.todo-container .todo-card input {
+    background: rgb(209, 136, 68);
+    width: 100%;
+    outline: none;
+    height: 100%;
+    border: none;
+    font-size: 25px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    
+  }
+  #todo-items{
+      list-style-type: none;
+      padding-top: 2rem;
+  }
+  #todo-items li{
+    background:rgb(238, 148, 63) ;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    
+}
+#todo-items li span{
+    cursor: pointer;
+    font-size: 25px;
+}
